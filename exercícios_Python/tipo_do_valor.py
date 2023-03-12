@@ -1,0 +1,8 @@
+x = input('Escreva algo: ')
+print('{} é numérico? '.format(x), x.isnumeric())
+print('{} é alpha-numérico? '.format(x), x.isalnum())
+print('{} é alfabético? '.format(x), x.isalpha())
+print('{} é decimal? '.format(x), x.isdecimal())
+print('{} está em maiúsculo? '.format(x), x.isupper())
+print('{} está em minúsculo? '.format(x), x.islower())
+print('{} está capitalizada? '.format(x), x.istitle())
